@@ -3,6 +3,7 @@ set hlsearch
 set autoindent
 set ts=4
 set expandtab
+set so=5
 colorscheme darkblue
 
 inoremap ( ()<ESC>i
