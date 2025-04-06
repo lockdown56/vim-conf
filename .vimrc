@@ -6,6 +6,9 @@ set expandtab
 set so=5
 colorscheme darkblue
 
+" no auto indent for yaml shile input '#'
+autocmd FileType yaml setlocal indentkeys-=0#
+
 inoremap ( ()<ESC>i
 inoremap { {}<ESC>i
 inoremap [ []<ESC>i
